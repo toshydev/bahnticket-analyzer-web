@@ -1,8 +1,8 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Next.js + NextUI",
-  description: "Make beautiful websites regardless of your design experience.",
+  name: "Bahn Ticket Analyzer",
+  description: "Analyze your Deutsche Bahn tickets",
   navItems: [
     {
       label: "Home",
@@ -11,10 +11,6 @@ export const siteConfig = {
     {
       label: "Docs",
       href: "/docs",
-    },
-    {
-      label: "Pricing",
-      href: "/pricing",
     },
     {
       label: "Blog",
@@ -60,8 +56,8 @@ export const siteConfig = {
     },
   ],
   links: {
-    github: "https://github.com/nextui-org/nextui",
-    twitter: "https://twitter.com/getnextui",
+    github: "https://github.com/toshydev/bahnticket-analyzer-web",
+    twitter: "https://twitter.com/toshymoshy",
     docs: "https://nextui.org",
     discord: "https://discord.gg/9b6yyZKmH4",
     sponsor: "https://patreon.com/jrgarciadev",
